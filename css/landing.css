@@ -133,6 +133,12 @@ header section .down .btn1{
 header section .down .btn2{
     background-color: var(--secondcolor);
 }
+@media (max-width:1024px) {
+    header{
+        min-height: fit-content;
+    }
+    
+}
 /* //////////////////////////////////////////////////section1////////////////////////////////////////// */
 .sec1{
     display: flex;
